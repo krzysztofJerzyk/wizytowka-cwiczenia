@@ -1,1 +1,68 @@
 @import "../../node_modules/normalize.css/normalize.css";
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2141;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.card {
+  flex-basis: 616px;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card__name {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.card__position {
+  margin: 0;
+  color: #545454;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.card__info {
+  margin: 0;
+  line-height: 22px;
+}
+
+.card__decsription {
+  flex-basis: 380px;
+  flex-grow: 1;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  color: #e20613;
+}
+
+.special-color {
+  color: #ed6d05;
+}
